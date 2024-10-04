@@ -1,0 +1,4 @@
+local plr = game:GetService("Players").LocalPlayer
+local hum = plr.Character:FindFirstChild("Humanoid")
+
+hum.WalkSpeed = 60
